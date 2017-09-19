@@ -1,0 +1,104 @@
+/*Imports font from https://fonts.google.com/*/
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:100,400,900');
+/*1. set background image as: background.png*/
+.my-body{
+    background-image: url('Resource/background3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%
+}
+/*1. Set container location top right/
+/*2. Add a border of color: #aaa*/
+/*3. Change the background color to: white*/
+/*4. Set the max width to: 600px*/
+/*5. Set the margin for top & bottom to: 10px*/
+/*6. Center the div using margin*/
+/*7. Create an inner padding (space) of size: 1rem*/
+/*8. Create a shadow: 5px 5px 5px #aaa*/
+.my-main_container{
+    position:absolute;
+    top:0;
+    right:0;
+    border: #949494 width border-style color;
+    background-color: #FFFFFF;
+    max-width: 386px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    padding: 12px;
+    box-shadow: -3px 3px 3px #CACACA;
+}
+
+.my-paragraph{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.my-container{
+    width: 90%;
+}
+
+.my-form{
+    font-family: "Raleway";
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+}
+/*1. add margin spacing for top & bottom: 20px */
+.my-form-group{
+    margin: 20px auto;
+}
+/*This selector refers to ALL <input> */
+input[type]{
+    -webkit-appearance: none;/*removes browser override style on mac*/
+    /*2. set the width to fill container: 100% */
+    /*3. increase font size to: 1.5rem */
+    /*4. increase height to: 2rem */
+    width: 100%;
+    font-size: 1.5rem;
+    height: 2rem;
+}
+/*Select multiple selectors with a comma , */
+/*input[type=text] selects <input type="text"> */
+input[type=text], input[type=email]{
+    /*5. remove existing border to: none*/
+    /*6. create an underline effect by setting a new
+    border-bottom to: 1px solid black*/
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+/*input[type]:focus is a state of being used */
+input[type=text]:focus, input[type=email]:focus{
+    /*7. remove the default glow with outline:none */
+    /*8. set the border and text color to: orangered*/
+    outline: none;
+    border-color: orangered;
+    color: orangered;
+}
+/*submit button selector*/
+input[type=submit]{
+    /*9. increase the button height to: 3rem (double font
+    size)*/
+    /*10. remove the bezel with border:none*/
+    /*11. set background color to: black and text to: white */
+    height: 3rem;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin-top: 10px;
+}   
+/*hovering state, similar to a:hover */
+
+input[type=submit]:hover{
+    /*12. set background color to: orangered */
+    background-color: black;
+    
+}
+/*this optional style removes the yellow background of
+chrome's autofill*/
+input[type]:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
+}

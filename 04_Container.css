@@ -1,47 +1,45 @@
 /*Imports font from https://fonts.google.com/*/
-@import
-url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
-/*1. Make the background color dark gray: #212121*/
-/*2. Change the font family to: 'lato'*/
-.my-body {
-    background-color: #212121;
-    font-family: 'lato';
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+/*1. Change the background color to: #f3f3f3*/
+.my-body{
+background-color: #f3f3f3
 }
-/*3. Enlarge the font size to: 4rem*/
-/*4. Thicken the font weight to: 900*/
-/*5. Change the text color to: white*/
-.my-title { 
-    font-size: 4rem;
-    font-weight: 900;
-    color: white;
-}
-/*6. Enlarge the font size to: 1.25rem*/
-/*7. Thicken the font weight to: 400*/
-/*8. Change the text color to: orangered*/
-/*9. Change the background color to: white*/
-.my-subtitle {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: orangered;
-}
-/*10. Enlarge the font size to: 3rem*/
-/*11. Thin the font weight to: 100*/
-/*12. Change the text color to: white*/
-.my-paragraph {
-    font-size: 3rem;
-    font-weight: 100;
-    color: white;
+
+/*2. Add a border of color: #aaa*/
+/*3. Change the background color to: white*/
+/*4. Set the max width to: 600px*/
+/*5. Set the margin for top & bottom to: 10px*/
+/*6. Center the div using margin*/
+/*7. Create an inner padding (space) of size: 1rem*/
+/*8. Create a shadow: 5px 5px 5px #aaa*/
+.my-container{
+border: #aaa width border-style color;
+background-color: white;
+max-width: 600px;
+margin-bottom: 10px;
+margin-top: 10px;
+margin: center;
+padding: 1rem;
+box-shadow: 5px 5px 5px #aaa
+
 
 }
-/*13. add a text shadow with the following specs:
-horizontal offset: 2px
-vertical offset: 2px
-shadow blur: 0
-color: orangered*/
-.my-strong {
-    text-shadow: 2px 2px orangered;
+
+/*9.  Change text color to: orangered*/
+/*10. Change text decoration to: overline*/
+/*11. Increase the font size to: 4rem*/
+.my-highlight{
+color: orangered;
+text-decoration: overline;
+font-size: 4rem;
 }
-.my-firstLetter {
-    text-decoration: overline;
-    color: #03A61E;
+
+/*12. Reduce    the width to: 20%*/
+/*13. Set border as: 10px solid orangered*/
+/*14. Shift to the left using margin-left*/
+.my-hr{
+width: 20%;
+border: 10px solid orangered;
+margin-left: 0;
 }
