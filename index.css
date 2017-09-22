@@ -1,0 +1,60 @@
+/*Imports font from https://fonts.google.com/*/
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:100,400,900');
+/*1. set background image as: background.png*/
+.my-body{
+    background-image: url('Resource/background3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.my-gradiant{
+    background: linear-gradient(-45deg, yellow 50%, red 100%);
+}
+.my-text{
+    font-family: "Raleway";
+    font-size: 25px;
+    color: white;
+}
+.my-paragraph{
+    font-size: 25px;
+    text-align: justify;
+}
+
+button[type=submit]{
+    background-color: orangered;
+    color: black;
+    border: white;
+}   
+/*hovering state, similar to a:hover */
+
+button[type=submit]:hover{
+    /*12. set background color to: orangered */
+    background-color: black;
+    color: white;
+    border: white;
+}
+
+form{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.my-relative{
+    position: relative;
+}
+.my-absolute{
+    position: absolute;
+    top:0;
+    right:0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.my-fixed{
+    position: fixed;
+    top:0;
+    right:0;
+    margin-right: 10px;
+    margin-top: 10px;
+}

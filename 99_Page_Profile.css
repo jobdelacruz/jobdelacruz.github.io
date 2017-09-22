@@ -28,6 +28,7 @@ url('https://fonts.googleapis.com/css?family=Raleway:100,400,900');
     margin-bottom: 100px;
     padding: 12px;
     box-shadow: -3px 3px 3px #CACACA;
+    font-family: "Raleway";
 }
 
 .my-paragraph{
@@ -89,6 +90,7 @@ input[type=submit]{
     background-color: orangered;
     color: white;
     margin-top: 10px;
+   
 }   
 /*hovering state, similar to a:hover */
 
